@@ -4,6 +4,11 @@ package edu.towson.cis.cosc442.project2.rectangle;
 /**
  * The Class Rectangle.
  */
+/**
+ * 
+ * The Rectangle were formed by connect these 2 point, that line would be the crossed line of the rectangle
+ *
+ */
 public class Rectangle {
 	
 	/** The p2. */
