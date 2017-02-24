@@ -7,9 +7,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class VendingMachineTest {
-
+	VendingMachineItem item;
+	VendingMachine theMachine;
 	@Before
 	public void setUp() throws Exception {
+		item = new VendingMachineItem("Candy",2);
+		theMachine= new VendingMachine();
 	}
 
 	@After
@@ -18,7 +21,8 @@ public class VendingMachineTest {
 
 	@Test
 	public void testAddItem() {
-		fail("Not yet implemented");
+		assert(theMachine.addItem(item, "A"));
+		
 	}
 
 	@Test
